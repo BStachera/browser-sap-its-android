@@ -1,4 +1,4 @@
-package com.example.oceanic_config;
+package com.bstachera.oceprodconfig;
 
 import android.content.Context;
 

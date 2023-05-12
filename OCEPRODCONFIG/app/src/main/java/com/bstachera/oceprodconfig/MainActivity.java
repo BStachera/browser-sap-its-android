@@ -1,5 +1,5 @@
 // Import necessary packages
-package com.example.oceanic_config;
+package com.bstachera.oceprodconfig;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

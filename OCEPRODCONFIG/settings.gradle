@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "oceanic-config"
+rootProject.name = "OCEPRODCONFIG"
 include ':app'

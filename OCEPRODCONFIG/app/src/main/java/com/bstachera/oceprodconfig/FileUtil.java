@@ -1,4 +1,4 @@
-package com.example.oceanic_config;
+package com.bstachera.oceprodconfig;
 
 import android.content.Context;
 import android.os.Build;
@@ -43,8 +43,8 @@ public class FileUtil {
                     "<port></port>\n" +
                     "<its></its>\n" +
                     "<mandat></mandat>\n" +
-                    "<darkmode></darkmode>\n" +
-                    "<togglezoom></togglezoom>\n" +
+                    "<darkmode>true</darkmode>\n" +
+                    "<togglezoom>true</togglezoom>\n" +
                     "<staticzoom></staticzoom>\n" +
                     "</ScannerParameters>");
             writer.close();
