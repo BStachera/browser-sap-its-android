@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">oceanic-config</string>
+    <string name="save">SAVE</string>
+    <string name="its">ITS:</string>
+    <string name="link">Link:</string>
+    <string name="enter_link">Enter link</string>
+    <string name="darkmode">DarkMode</string>
+    <string name="mandat">Mandat:</string>
+    <string name="port">Port:</string>
+    <string name="enter_mandat">Enter mandat</string>
+    <string name="enter_its">Enter ITS</string>
+    <string name="enter_port">Enter port</string>
+    <string name="dark_mode">Dark Mode:</string>
+    <string name="_100">100%</string>
+    <string name="toggle_zoom">Toggle Zoom:</string>
+    <string name="static_zoom">Static Zoom:</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/link_edittext"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/enter_link"
+        android:inputType="text"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/link_title"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/port_edittext"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:hint="@string/enter_port"
+        android:inputType="number"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/port_title"
+        app:layout_constraintTop_toBottomOf="@+id/link_edittext"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/its_edittext"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/enter_its"
+        android:inputType="text"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/its_title"
+        app:layout_constraintTop_toBottomOf="@+id/port_edittext"
+        tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/mandat_edittext"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:hint="@string/enter_mandat"
+        android:inputType="number"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/mandat_title"
+        app:layout_constraintTop_toBottomOf="@+id/its_edittext"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ToggleButton
+        android:id="@+id/darkmode_button"
+        android:layout_width="170dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:drawableTint="#921A1A"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="@id/darkmode_title"
+        app:layout_constraintTop_toBottomOf="@+id/mandat_edittext"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ToggleButton
+        android:id="@+id/togglezoom_button"
+        android:layout_width="170dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:drawableTint="#921A1A"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="@id/togglezoom_title"
+        app:layout_constraintTop_toBottomOf="@+id/darkmode_button"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/staticzoom_edittext"
+        android:layout_width="80dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:hint="49"
+        android:inputType="number"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/zoom_title"
+        app:layout_constraintTop_toBottomOf="@+id/togglezoom_button"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/link_title"
+        android:layout_width="55dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/link"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/port_title"
+        android:layout_width="55dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/port"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/link_title"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/its_title"
+        android:layout_width="55dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/its"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/port_title"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/mandat_title"
+        android:layout_width="55dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/mandat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/its_title"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/darkmode_title"
+        android:layout_width="100dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/dark_mode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mandat_title"
+        tools:ignore="TextSizeCheck" />
+    <TextView
+        android:id="@+id/togglezoom_title"
+        android:layout_width="100dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/toggle_zoom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/darkmode_title"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/zoom_title"
+        android:layout_width="100dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/static_zoom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/togglezoom_title"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="194dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="390dp"
+        android:text="@string/save"
+        android:textColor="#FFFFFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
