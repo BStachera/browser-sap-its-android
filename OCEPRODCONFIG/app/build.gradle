@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace "com.bstachera.oceprodconfig"
+    namespace "com.oceanic.oceprodconfig"
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.bstachera.oceprodconfig"
+        applicationId "com.oceanic.oceprodconfig"
         minSdk 24
         targetSdk 33
-        versionCode 5
-        versionName "1.5"
+        versionCode 7
+        versionName "1.6.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -2,7 +2,7 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"  android:shape="rectangle">
 
     <!-- Set the background color of the button -->
-   <solid android:color="#038DD8"></solid>
+    <solid android:color="#038DD8" />
 
     <!-- Set the rounded corners of the button -->
     <corners android:radius="10dp" />
