@@ -159,8 +159,6 @@ public class FullscreenActivity extends AppCompatActivity {
                 @Override
                 public void onPageFinished(WebView view, String url) {
 
-
-
                     super.onPageFinished(view, url);
                     // check if darkmode is enabled
                     if (darkMode) {
